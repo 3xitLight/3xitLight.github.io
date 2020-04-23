@@ -1,123 +1,211 @@
-<!doctype html>
-<html manifest="hungryhedgehogoffline.appcache">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hungry hedgehog</title>
-<meta name="description" content="Hungry hedgehog. Try to eat all apples, pears, mushrooms, but avoid tomatoes">
-<meta name="keywords" content="hungry, hedgehog, eat, apples, pears, mushrooms">
-<link href="../boilerplate.css" rel="stylesheet" type="text/css">
-<link href="../styleg.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-		canvas { border: 1px solid black; }
-</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-19825675-22', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!-- Begin Cookie Consent -->
-<script type="text/javascript">
-window.cookieconsent_options = {"link":"http://www.mikanse.com/privacy-policy.html","theme":"//www.mikanse.com/cookieconsent/lighttopgames.css"};</script>
-<script type="text/javascript" src="//www.mikanse.com/cookieconsent/cookieconsent.js"></script><!-- End Cookie Consent -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>3XITLiGHT</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<div class="gridContainer clearfix">
-  <header id="top" class="fluid"><h1>Hungry hedgehog</h1></header>
-  <nav id="mainNav" class="fluid"> <ul id="menuSystem" class="fluid fluidList"> <li class="fluid menuItem zeroMargin_tablet zeroMargin_desktop"><a href="http://www.mikanse.com">Home</a></li>
-    <li class="fluid menuItem"><a href="http://www.mikanse.com/physics-games.html">Physics games</a></li>
-  <li class="fluid menuItem"><a href="http://www.mikanse.com/cinemagraphs.html">Cinemagraphs</a></li> </ul> </nav><div id="theGame" class="fluid">
-  <div id="fb-root"></div>
-	<div style="text-align: center;">
+	<article>
+		<header>
+			<div class="glitch" data-text="3XITLiGHT">3XITLiGHT</div>
+			<div class="glow">3XITLiGHT</div>
+			<p class="subtitle">.github.io</p>
+			<div class="scanlines"></div>
+		</header>
+	</article>
+					
+</body>
+</html>
+<!-- END BANNER -->
+  
+</body>
+</html>
+<!-- START MENU -->
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Mega Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
-	<script>
-	(function(){
-		if (window.location.protocol.substr(0, 4) === "file")
-		{
-			alert("Mikanse games won't work until you upload them.");
-		}
-	})();
-	</script>
-        
-		<canvas id="c2canvas" width="800" height="600">
-            We're sorry, but it appears that your browser does not currently support the web technologies needed to play &quot;Hungry hedgehog&quot;. Please update your browser to the latest version.  
-			<br/><br/><br/>
-		</canvas>
-        <br />
-	</div>
-	<script src="../jquery-2.0.0.min.js"></script>
-	<script src="hungryhedgehog.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-  <script>
-		jQuery(window).resize(function() {
-			if (window.c2resizestretchmode === 1)
-			{
-				window.c2resizestretchmode = 2;
-				var canvas = document.getElementById("c2canvas");
-				window.c2oldcanvaswidth = canvas.width;
-				window.c2oldcanvasheight = canvas.height;
-				window.c2eventtime = Date.now();
-				var w = jQuery(window).width();
-				var h = jQuery(window).height();
-				cr_sizeCanvas(w, h);
-			}
-			else if (window.c2resizestretchmode === 2)
-			{
+
+
+</head>
+
+<body class="background">
+	 <div class="content">
+	 
+		<ul class="exo-menu">
+			<li><a class="active" href="#"><i class="fa fa-home"></i> GitHub</a></li>
+			<li class="drop-down"><a href="#"><i class="fa fa-cogs"></i> Projects</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+				<li class="flyout-right"><a href="#">Kali Nethunter</a><!--Flyout Right-->
+					<ul class="animated fadeIn">
+						<li><a href="#">Devices</a></li>
+						<li><a href="#">Kernel</a></li>
+						<li><a href="#">Scripts</a></li>
+						<li><a href="#">Links</a></li>
+					</ul>
+				</li>
 				
-				if (Date.now() > window.c2eventtime + 50)
-				{
-					window.c2resizestretchmode = 0;
-					cr_sizeCanvas(window.c2oldcanvaswidth, window.c2oldcanvasheight);
-				}
-			}
-		});
-	
-		jQuery(document).ready(function ()
-		{	
-			cr_createRuntime("c2canvas");
-		});
+				<li><a href="HungrySchnepperle/hungry-schnepperle.html">HungrySchnepperle</a></li>
+				 
+				</ul>
+				<!--//End drop down-->
+			
+			</li>
+				<li class="drop-down"><a href="#"><i class="fa fa-cogs"></i> Linux</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+				<li><a href="#">ArchLinux</a></li>
+				<li><a href="#">OpenWrt</a></li>
+					</ul>
+				<!--//End drop down-->
+			<li><a href="#"><i class="fa fa-briefcase"></i> Links</a></li>
+		<!--	<li class="mega-drop-down"><a href="#"><i class="fa fa-list"></i> Mega Menu</a>
+				<div class="animated fadeIn mega-menu">
+					<div class="mega-menu-wrap">
+						<div class="row">
+						<div class="col-md-4">
+							<h4 class="row mega-title">Feature</h4>
+								<img class="img-responsive" src="https://3.bp.blogspot.com/-rUk36pd-LbM/VcLb48X4f-I/AAAAAAAAGCI/Y_UxBAgEqwA/s1600/Magento_themes.jpg">
+							</div>
+							<div class="col-md-2">
+									<h4 class="row mega-title">Standers</h4>
+								<ul class="stander">
+									<li><a href="#">Mobile</a></li>
+									<li><a href="#">Computer</a></li>
+									<li><a href="#">Watch</a></li>
+									<li><a href="#">laptop</a></li>
+									<li><a href="#">Camera</a></li>
+									<li><a href="#">I pad</a></li>
+									<li><a class="view-more btn- btn-sm" href="#">View more</a></li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+								<h4 class="row mega-title">Description</h4>
+								<ul class="description">
+									<li><a href="#">Women</a>
+										<span>Description of Women</span>
+									</li>
+									<li><a href="#">Men</a>
+											<span>Description of men Cloths</span>
+									</li>
+									<li><a href="#">Kids</a>
+											<span>Description of Kids Cloths</span>
+									</li>
+									<li><a href="#">Others</a>
+											<span>Description of Others Cloths</span>
+									</li>
+									<li>
+									<a class="view-more btn btn-sm " href="#">View more</a>
+											 
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-3">
+							<h4 class="row mega-title">Icon + Description</h4>
+								<ul class="icon-des">
+									<li><a href="#"><i class="fa fa-globe"></i>Web</a></li>
+									<li><a href="#"><i class="fa fa-mobile"></i>Mobile</a></li>
+									<li><a href="#"><i class="fa fa-arrows-h"></i>Responsive</a></li>
+									<li><a href="#"><i class="fa fa-desktop"></i>Desktop</a></li>
+									<li><a href="#"><i class="fa fa-paint-brush"></i>UI/UX</a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>	
+				</div>
+			</li>
+			<li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i> Blog</a>
+				<div class="Blog animated fadeIn">
+					<div class="col-md-4">
+						<img class="img-responsive" src="https://2.bp.blogspot.com/-VG_e0pKfrDo/VcLb6JwZqfI/AAAAAAAAGCk/8ZgA9kZqTQ8/s1600/images3.jpg">
+						<div class="blog-des">
+					<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+							<a class="view-more btn- btn-sm" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive" src="https://3.bp.blogspot.com/-hUt5FrdZHio/VcLb5dlwTBI/AAAAAAAAGCU/UUH5N1JkoQc/s1600/images1.jpg">
+						<div class="blog-des">
+						<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+									<a class="view-more btn- btn-sm" href="#">Read More</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img class="img-responsive" src="https://4.bp.blogspot.com/-A7U1uPlSq6Y/VcLb5kKHCkI/AAAAAAAAGCc/7WghyndTEuY/s1600/images2.jpg">
+						<div class="blog-des">
+						<h4 class="blog-title">Lorem ipsum dolor sit amet</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+							tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+							nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+							Duis autem vel eum iriure dolor in hendrerit in vulputate. </p>
+									<a class="view-more btn- btn-sm" href="#">Read More</a>
+						</div>
+					</div>
+					 
+					
+				</div>
+			</li>
+			<li  class="images-drop-down"><a  href="#"><i class="fa fa-photo"></i> Images</a>
+				<div class="Images animated fadeIn">
+					<div class="col-md-3">
+						<h4>Images Title </h4>
+						<img class="img-responsive" src="https://2.bp.blogspot.com/-VG_e0pKfrDo/VcLb6JwZqfI/AAAAAAAAGCk/8ZgA9kZqTQ8/s1600/images3.jpg">
+					</div>
+					<div class="col-md-3">
+					<h4>Images Title </h4>
+						<img class="img-responsive" src="https://3.bp.blogspot.com/-hUt5FrdZHio/VcLb5dlwTBI/AAAAAAAAGCU/UUH5N1JkoQc/s1600/images1.jpg">
+					</div>
+					<div class="col-md-3">
+					<h4>Images Title </h4>
+						<img class="img-responsive" src="https://4.bp.blogspot.com/-A7U1uPlSq6Y/VcLb5kKHCkI/AAAAAAAAGCc/7WghyndTEuY/s1600/images2.jpg">
+					</div>
+					<div class="col-md-3">
+					<h4>Images Title </h4>
+						<img class="img-responsive"  src="https://3.bp.blogspot.com/-hGrnZIjzL2k/VcLb47kyQKI/AAAAAAAAGCQ/J6Q2IAHIQvQ/s1600/image4.jpg">
+					</div>
+					
+				</div>
+			
+			</li> -->
+			<li><a href="#"><i class="fa fa-envelope"></i> Contact</a>
+				<div class="contact">
+			
+				</div>
+			</li>
+			<a href="#" class="toggle-menu visible-xs-block">|||</a>		
+	</ul>
+	 
+	 
+	 </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 
-		function onVisibilityChanged() {
-			if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden)
-				cr_setSuspended(true);
-			else
-				cr_setSuspended(false);
-		};
-		
-		document.addEventListener("visibilitychange", onVisibilityChanged, false);
-		document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
-		document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
-		document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
-    </script>
-  </div><footer class="fluid down">
-    <div id="textUnderGame" class="fluid">
-      <p>&nbsp;</p>
-      <p>Hungry hedgehog. Try to eat all apples, pears, mushrooms, but avoid tomatoes for as long as possible.</p>
-           <p>Did you know: Hedgehogs hibernate in cold climates; In captivity, hedgehogs tend to get along with dogs, cats and other pets.</p>
-      <p>&nbsp;</p>
-    </div>
-    <div id="underText" class="fluid">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- mikanse-responsive -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6489501719871983"
-     data-ad-slot="2085155964"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    </div>
-    <div id="aboutPrivacy" class="fluid">
-      <hr>
-      <p><a href="http://www.mikanse.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
-</div>
-</footer>
-</div>
+</body>
+</html>
+<!-- partial -->
+  
 </body>
 </html>
