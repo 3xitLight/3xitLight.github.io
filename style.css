@@ -1,5 +1,22 @@
+<<<<<<< HEAD
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
+=======
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,200);
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg {
+  background-image: background: url(https://raw.githubusercontent.com/3xitLight/3xitLight.github.io/master/img/2eom-wallpaper.png);
+  background-size: cover;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  display: block;
+  height: 110%;
+  width: 110%;
+  left: -10px;
+>>>>>>> 30fb890916eb682b1cd261c10ef2fc53e0d5f67c
   position: fixed;
   right: 0;
   bottom: 0;
