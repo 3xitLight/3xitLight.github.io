@@ -1,3 +1,3 @@
-# 3xitLight.github.io
+# 3xitlight.github.io
 
-#### https://3xitLight.github.io
+#### https://3xitlight.github.io
