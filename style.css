@@ -4,7 +4,7 @@ body {
 }
 
 .bg {
-  background-image: background: url(..img/2eom-wallpaper.png);
+  background-image: background: url(https://raw.githubusercontent.com/3xitLight/3xitLight.github.io/master/img/2eom-wallpaper.png);
   background-size: cover;
   filter: blur(10px);
   -webkit-filter: blur(10px);
